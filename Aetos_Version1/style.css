@@ -10,7 +10,7 @@
     width : 100%;
     /* background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('cycle_bg_image.png'); */
     /* background-image: linear-gradient(rgba(0, 0, 14, 0.274), rgba(0, 0, 2, 0.281)), url('website_images/black_cycle_bg.jpg'); */
-    background-image: linear-gradient(rgba(0, 0, 14, 0.479), rgba(0, 0, 2, 0.432)), url('website_images/black_cycle_bg.jpg');
+    background-image: linear-gradient(rgba(0, 0, 14, 0.479), rgba(0, 0, 2, 0.432)), url('website_images/Aetos_MainPagePhoto.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
@@ -315,13 +315,12 @@ h3{
     background:  rgba(0, 0, 0, 0.55);
 }
 
-.layer h3{
+/* .layer h3{
     width: 100%;
     font-weight: 500;
     color: #fff;
     font-size: 26px;
     bottom: 0;
-    /* left: 50%; */
     transform: translateX (- 50%) ;
     position: absolute;
     opacity: 0;
@@ -331,7 +330,7 @@ h3{
 .layer:hover h3{
     bottom: 45%;
     opacity: 1;
-}
+} */
 
 /* ----Facilities----- */
 .facilities{
