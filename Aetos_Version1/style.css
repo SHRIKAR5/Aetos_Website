@@ -100,14 +100,14 @@ nav img{
 
 /* Heading */
 .text-box h1{
-    font-size: 62px;
+    font-size: 70px;
 }
 
 /* Description below Heading */
 .text-box p{
     margin: 10px 0 40px;
-    font-size: 14px;
-    color: #fff;
+    font-size: 18px;
+    color: #ffffff;
 }
 
 /* Contact us button Abhijeet way*/
@@ -219,13 +219,6 @@ nav .fa{
 
 /* ----- product ----- */
 
-.product{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-
 h1{
     font-size: 36px;
     font-weight: 600;
@@ -245,26 +238,11 @@ p{
     display: flex;
     justify-content: space-between;
 }
-    
-.product-col{
-    flex-basis: 31%;
-    /* background: #fff3f3c7; */
-    background: #f0f0f0;
-    border-radius: 10px;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    margin-bottom: 5%;
-    transition: 0.3s;
-}
 
 h3{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
-}
-
-.product-col:hover{
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.301);
 }
 
 @media (max-width: 700px){
@@ -273,28 +251,33 @@ h3{
     }
 }
 
-/* -- Stores -- */
-.store{
+/* -- Brands -- */
+.brand{
     width: 80%;
     margin: auto;
     text-align: center;
     /* padding-top: 50px; */
-    padding: 4% 10%;
+    padding: 5% 10%;
     background: rgba(180, 180, 180, 0.2);
 }
 
-.store-col{
-    flex-basis: 32%;
+.brand-col{
+    flex-basis: 31%;
     border-radius: 40px;
     /* border-radius: 40px 20px 40px 20px; */
-    margin-bottom: 30px;
+    margin-bottom: 5%;
     position: relative;
     box-sizing: border-box;
     box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
     overflow: hidden;
 }
 
-.store-col img{
+.brand-col:hover{
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.703);
+    transition: 0.8s;
+}
+
+.brand-col img{
     width: 100%;
     display: block;
     box-sizing: border-box;
@@ -311,9 +294,9 @@ h3{
     transition: 0.5s;
 }
 
-.layer:hover{
+/* .layer:hover{
     background:  rgba(0, 0, 0, 0.55);
-}
+} */
 
 /* .layer h3{
     width: 100%;
@@ -332,28 +315,52 @@ h3{
     opacity: 1;
 } */
 
-/* ----Facilities----- */
-.facilities{
-    width: 80%;
+/* ------------Pooraameraa-------------- */
+.pooraamera{
+    height: 350px;
+    width: 100%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding: 50px 0;
+    background-color: #4f0394;
 }
 
-.facilities-col{
-    flex-basis: 31%;
-    border-radius: 20px;
-    margin-bottom: 5%;
-    text-align: left;
-    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+.text-box1{
+    width: 90%;
+    color: #000;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
 }
 
-.facilities-col img {
-    width: 100%;
-    border-radius: 10px;
+/* .text-box1 h1{
+    font-size: 62px;
+} */
+
+.hero-btn1{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
 }
 
-/*-footer-------*/
+/* Hover on contact us button */
+.hero-btn1:hover{
+    color: #000;
+    border: 1px solid #fff;
+    background: #fff;
+    transition: 0.5s;
+}
+
+
+/*--------footer-------*/
 
 .footer {
     width: 100%;
@@ -362,13 +369,14 @@ h3{
     background: rgba(180, 180, 180, 0.2);
 }
 .footer h4{
-    margin-bottom: 25px;
+    margin-bottom: 16px;
     margin-top: 20px;
     font-weight: 600;
+    font-size: 20px;
 }
 
 .footer p{
-    color: rgb(40, 40, 40);
+    color: rgb(0, 0, 0)
 }
 
 .icons .fa{
@@ -377,10 +385,6 @@ h3{
     cursor: pointer;
     padding: 18px 0;
 }
-/* 
-.icons .fa .fa-whatsapp{
-    font-size: 50px;
-} */
 
 .fa .fa-gear .fa-spin{
     color: #0b24b5;
