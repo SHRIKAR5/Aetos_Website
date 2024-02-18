@@ -342,11 +342,14 @@ h3{
 .hero-btn1{
     display: inline-block;
     text-decoration: none;
+    /* color: #fff; */
     color: #fff;
     border: 1px solid #fff;
     padding: 12px 34px;
     font-size: 20px;
     background: transparent;
+    /* background: #C5C5C5; */
+    /* background: #e50101; */
     position: relative;
     cursor: pointer;
 }
@@ -400,7 +403,7 @@ h3{
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 14, 0.479), rgba(0, 0, 14, 0.479)), url("website_images/orange_cycle.png");
+    background-image: linear-gradient(rgba(0, 0, 14, 0.479), rgba(0, 0, 14, 0.479)), url("website_images/IMG_8748_resized.jpg");
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -435,6 +438,8 @@ h3{
 
 .about-col p{
     padding: 15px 0 25px;
+    display: grid;
+    justify-content: space-between;
 }
 
 
